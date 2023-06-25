@@ -97,7 +97,7 @@
     position: relative;
 }
 
-#testimonials:before {
+#testimonials::before {
     background: rgb(52, 73, 94, 0.7);
     content: "";
     position: absolute;
@@ -109,4 +109,5 @@
 .testimonial img{
 
     border-radius: 50%;
+    background-size: cover;
 }
