@@ -225,7 +225,7 @@ a.readmore::after {
 }
 
 
-/* Media Queries */
+/* Media Queries Small Screens */
 @media (max-width: 768px) {
 
     #logo {
@@ -234,10 +234,24 @@ a.readmore::after {
         margin: 10px 0;
     }
 
-    #menu{
+    #menu {
 
         text-align: center;
 
+    }
+    
+    .banner-title {
+        padding-top: 0;
+    }
+
+    .banner-title h1 {
+
+        font-size: 1.7rem;
+    }
+
+    .section {
+
+        padding: 40px 0 40px 0;
     }
 
     .testimonial {
@@ -245,12 +259,7 @@ a.readmore::after {
         margin-bottom: 30px;
     }
 
-    .service-box{
-        margin-bottom: 30px;
-    }
-
-    .news-post{
-
+    .service-box {
         margin-bottom: 30px;
     }
 
@@ -265,5 +274,16 @@ a.readmore::after {
     #social-icons {
 
         margin-top: 10px;
+    }
+}
+
+
+
+/* Media Queries Medium Screens */
+@media (max-width: 992px){
+
+    .news-post {
+
+        margin-bottom: 30px;
     }
 }
