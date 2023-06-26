@@ -225,7 +225,7 @@ a.readmore::after {
 }
 
 
-/* Media Queries Small Screens */
+/* Media Queries Small Screens starts */
 @media (max-width: 768px) {
 
     #logo {
@@ -276,6 +276,7 @@ a.readmore::after {
         margin-top: 10px;
     }
 }
+/* Media Queries Small Screens Ends */
 
 
 
