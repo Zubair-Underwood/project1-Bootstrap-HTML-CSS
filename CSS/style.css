@@ -185,62 +185,84 @@ a.readmore::after {
     margin-bottom: 3px;
 }
 
-.latest-news li a{
+.latest-news li a {
 
     text-decoration: none;
 }
 
 
-.latest-news li::before{
+.latest-news li::before {
 
-    content:"\f061";
+    content: "\f061";
     font-family: FontAwesome;
-    padding-right:5px;
+    padding-right: 5px;
 }
 
-#footer{
+#footer {
 
-    color:#fff;
+    color: #fff;
     background: #2c3e50;
-    padding:10px 0;
+    padding: 10px 0;
 }
 
-#social-icons{
-    list-style:none;
-    color:#fff;
-    margin:0;
-    padding:0;
+#social-icons {
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-#social-icons li{
+#social-icons li {
 
-    display:inline-block;
-    padding-left:5px;
+    display: inline-block;
+    padding-left: 5px;
 }
 
-#social-icons li a{
+#social-icons li a {
 
-    color:#fff;
-    font-size:23px;
+    color: #fff;
+    font-size: 23px;
 }
 
 
 /* Media Queries */
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    .testimonial{
+    #logo {
+
         text-align: center;
+        margin: 10px 0;
     }
 
-    .footer-widget{
+    #menu{
+
+        text-align: center;
+
+    }
+
+    .testimonial {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .service-box{
+        margin-bottom: 30px;
+    }
+
+    .news-post{
+
+        margin-bottom: 30px;
+    }
+
+    .footer-widget {
         margin-bottom: 20px;
     }
 
-    #footer{
+    #footer {
         text-align: center;
     }
 
-    #social-icons{
+    #social-icons {
 
         margin-top: 10px;
     }
