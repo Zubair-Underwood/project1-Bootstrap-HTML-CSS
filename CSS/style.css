@@ -223,3 +223,25 @@ a.readmore::after {
     color:#fff;
     font-size:23px;
 }
+
+
+/* Media Queries */
+@media (max-width: 768px){
+
+    .testimonial{
+        text-align: center;
+    }
+
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+
+    #footer{
+        text-align: center;
+    }
+
+    #social-icons{
+
+        margin-top: 10px;
+    }
+}
